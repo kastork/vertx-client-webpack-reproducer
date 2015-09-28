@@ -1,6 +1,6 @@
 Reproducer demo case for using `vertx3-eventbus-client` in a Webpack build.
 
-== Server
+## Server
 
 The server is just enough to serve the client and do a minimal thing on the event bus.
 It runs http server on port 9999.
@@ -14,7 +14,7 @@ java -jar build/libs/vertx-client-webpack-reproducer-3.0.0-fat.jar
 ```
 Static files served from the webroot of the project's root directory.
 
-== Client
+## Client
 
 The client is a ReactJS/Apt/Vertx app that's built with Webpack.
 
@@ -35,7 +35,7 @@ npm run devbuild
 This will build the client and put it in the server's webroot.  
 
 
-== Problem
+## Problem
 
 As things are now, the `npm run devbuild` fails for the reasons indicated in 
 issue 195  https://github.com/vert-x3/vertx-web/issues/195
